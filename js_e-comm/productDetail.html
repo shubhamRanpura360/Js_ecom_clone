@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="productstyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="# ">SIGN IN</a>
+            <a href="# ">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="public/images/reli-logo.png"
+              alt=" eCommerce logo"
+              class="logo"
+              width="80%"
+              height="auto"
+            />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Product</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main  class="product-detail-container-1" id="showdetails-section">
+      <div class="product-detail">
+        <img
+          id="productImage"
+          src=""
+          alt="product image"
+          class="product-detail-image"
+        />
+        <div class="product-info">
+          <h1 id="productName">Product Name</h1>
+          <p id="productDescription">productDescription</p>
+          <p id="productCategory">Category:</p>
+          <p id="productbrand">Brand:</p>
+          <p id="productPrice">Price: ₹</p>
+          <p id="productStock">Stock:</p>
+          <button id="addToCartButton" class="btn" >Show details</button>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <!-- <img src="" alt="img-1" id="thumbnail1" class="thumbnail">
+            <img src="" alt="img-2" id="thumbnail2" class="thumbnail">
+            <img src="" alt="img-3" id="thumbnail3" class="thumbnail">
+            <img src="" alt="img-4" id="thumbnail5" class="thumbnail"> -->
+          </div>
+        </div>
+      </div>
+      <br>
+    
+ 
+    
+      <template id="accordion-template">
+        <div class="accordion">
+            <div class="item">
+                <p class="number"></p>
+                <h2 class="title"></h2>
+                <div class="iconopen">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                <div class="iconclose">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="hidden-box">
+                    <p class="description"></p>
+                    <ul class="details-list"></ul>
+                </div>
+            </div>
+        </div>
+    </template>
+    <div id="accordion-container"></div>
+
+    </main>
+    
+
+    <footer>
+      <div class="foot-panel2">
+        <ul>
+          <p>ABOUT</p>
+          <a>Contact Us</a>
+          <a>About Us</a>
+          <a>Reliance Stories</a>
+          <a>Press</a>
+          <a>Corporate information</a>
+        </ul>
+        <ul>
+          <p>GROUP COMPANIES</p>
+          <a>Shopsy</a>
+          <a>Cleartrip</a>
+          <a>Mynta</a>
+  
+        </ul>
+         <ul>
+          <p>HELP</p>
+          <a>Report Infringement</a>
+          <a>Cancellation & Return</a>
+          <a>Payement</a>
+          <a>Shipping</a>
+          <a>FAQ</a>
+        </ul>
+        <ul> 
+          <p>CONSUMER POLICY</p>
+          <a>Contact Us</a>
+          <a>About Us</a>
+          <a>Reliance Stories</a>
+          <a>Press</a>
+          <a>Corporate information</a>
+        </ul>
+      </div> 
+       <div class="foot-panel3">
+          <div class="add-icon1">
+            <i class="fa-regular fa-circle-user"></i>
+            <p class="add-first1"> Become a Seller</p>
+        </div>
+        <div class="add-icon1">
+          <i class="fa-solid fa-star"></i>
+          <p class="add-first1">Advertise</p>
+      </div>
+        <div class="add-icon1">
+          <i class="fa-solid fa-gift"></i>
+           <p class="add-first1">Gift Cards</p>
+      </div>
+          <div class="add-icon1">
+          <i class="fa-regular fa-circle-question"></i>
+          <p class="add-first1">Help Center</p>
+        </div> 
+      </div>
+    </footer>
+
+    <script type="module" src="./js files/productDetail.js"></script>
+  </body>
+</html>

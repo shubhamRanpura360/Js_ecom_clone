@@ -7,13 +7,13 @@ export const   updateCartProductTotal = () =>{
 
     let localCartProducts = getCartProductFromLS();
     let initialValue = 0;
-    let totalProductPrice = localCartProducts.reduce( (accum,curElem,) => {
+    let totalProductPrice = localCartProducts.reduce( (accum,curElem) => {
        
        let productPrice = parseInt(curElem.price) || 0;
        return accum + productPrice
-
+ 
     }, initialValue)
-    // console.log(totalProductPrice);
+   //  console.log(totalProductPrice);
 
     productSubTotal.textContent = `₹${totalProductPrice}`;
     productFinalTotal.textContent = `₹${totalProductPrice + 50}`;

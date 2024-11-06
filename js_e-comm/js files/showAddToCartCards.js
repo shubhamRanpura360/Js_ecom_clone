@@ -18,7 +18,7 @@ console.log(filterProducts);
 // --------------------------------------------------------
 const cartElement = document.querySelector("#productCartContainer");
 const templateContainer = document.querySelector("#productCartTemplate");
-
+ 
 const showCartProduct = () =>{
     filterProducts.forEach( (currProd) =>{
         const{  category, id, image, name, price, stock} = currProd;

@@ -4,15 +4,11 @@
   box-sizing: border-box;
 }
 
+
 :root {
   font-family: "Urbanist", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
   --buttonColor: #2a2c30;
   --secondaryColor: #4b4f56;
@@ -31,7 +27,7 @@ html {
   color: var(--textColor);
 }
 
-/* have a look into body once after we done with rest of the styling  */
+
 body {
   margin: 0 auto;
   padding: 0 32px;
@@ -39,12 +35,7 @@ body {
   background-color: var(--backgroundColor);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   color: var(--textColor);
 }
@@ -56,15 +47,11 @@ h2 {
   font-size: 3.2rem;
 }
 
-p,
-li,
-a,
-label {
+p, li, a, label {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  color: var(--para-color);
+  color: var(--textColor);
   line-height: 1.5;
-  font-weight: 400;
 }
 
 li {
@@ -92,18 +79,6 @@ a {
   padding: 9.6rem 2.4rem;
 }
 
-:is(
-    .section-extra-product,
-    .section-blog,
-    .section-policy,
-    .section-contact--homepage,
-    .section-why--choose,
-    .section-contact,
-    footer
-  )
-  .container:first-child {
-  padding: 6.4rem 0 2.4rem 0;
-}
 
 .grid {
   display: grid;
@@ -125,9 +100,6 @@ a {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid-four-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
 
 /*! module / reusable  */
 
@@ -138,10 +110,6 @@ a {
   color: var(--white-color);
   text-transform: capitalize;
   border-radius: 0.6rem;
-  -webkit-border-radius: 0.6rem;
-  -moz-border-radius: 0.6rem;
-  -ms-border-radius: 0.6rem;
-  -o-border-radius: 0.6rem;
 }
 
 .section-common--title {
@@ -149,18 +117,14 @@ a {
   margin: 2.4rem 0 1.2rem 0;
 }
 
-/* states  */
 
 .btn:hover {
   background-color: var(--bnt-hover-bg-color);
-  box-shadow: var(--btn-box-shadow);
   cursor: pointer;
 }
 
-.btn:focus-visible,
-input:focus-visible,
-textarea:focus-visible {
-  outline: 2px solid var(--para-color);
+.btn:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--textColor);
 }
 
 /** CSS for toast notifications */
@@ -172,15 +136,11 @@ textarea:focus-visible {
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
-  border-bottom: 0;
-  border-color: red;
   font-size: 1.6rem;
   z-index: 1000;
   font-family: "urbanist";
   animation: toastAnimation 2s linear;
   -webkit-animation: toastAnimation 2s linear;
-  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-    0px 0px 0.5em 0px var(--glow-color);
 }
 
 @keyframes toastAnimation {
@@ -218,6 +178,7 @@ textarea:focus-visible {
 
   & .head_txt p {
     font-size: 1.5rem;
+    color: white;
   }
 
   & .sing_in_up {
@@ -283,7 +244,7 @@ textarea:focus-visible {
 /***** Hero Section *****/
 
 main {
-  height: 84vh;
+  height: 95vh;
   position: relative;
   background-color: #d9e9ff;
 
@@ -873,7 +834,7 @@ footer {
 
   &:hover {
     box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.16),
-      inset 0px 0px 0px 3px rgb(51, 51, 51);
+    inset 0px 0px 0px 3px rgb(51, 51, 51);
     background-color: var(--backgroundColor);
     color: var(--buttonColor);
     cursor: pointer;

@@ -5,6 +5,8 @@ import { homeQuntityToggle } from "./homeQuntityToggel";
 const productContainer = document.querySelector("#productContainer")
 const productTemplate  = document.querySelector("#productTemplate")
 
+
+
 export const showProductContainer = (products)=> {
    if (!products){
     return false;
@@ -34,9 +36,15 @@ export const showProductContainer = (products)=> {
             addToCart(event, id, stock);
      })
 
+     productClone.querySelector(".productImage").addEventListener('click', () => {
+        window.location.href = `productDetail.html?id=${id}`;
+    });
+    
+
       productContainer.append(productClone);
    });
 
+   
     
 
 };

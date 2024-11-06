@@ -3,13 +3,39 @@
       "id": 1,
       "name": "Laptop",
       "category": "Computers",
-      "brand": "ExampleBrand",
+      "brand": "Apple",
       "price": 999.99,
       "stock": 50,
-      "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-      "image": "../images/lapi.png"
-      
-    },
+      "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, Pure Silver, 1.5 KG and a 14-inch FHD display.",
+      "image": "../images/lapi.png",
+      "childImages": [
+        "../public/images/lap-1.jpg",
+        "../public/images/lap-2.jpg",
+        "../public/images/lap-3.jpg",
+        "../public/images/lap-5.jpg"
+     ],
+      "number": 1,
+      "titles": ["Processor", "Memory", "Graphics"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+      "details": [
+    [
+      "Intel Core i5 Processor",
+      "Quad-Core, 3.1 GHz",
+      "Turbo Boost up to 4.5 GHz"
+    ],
+    [
+      "8GB DDR4 RAM",
+      "Expandable up to 32GB",
+      "256GB SSD"
+    ],
+    [
+      "NVIDIA® GeForce RTX™ 3050, 6 GB GDDR6",
+      "NVIDIA® GeForce RTX™ 4050, 6 GB GDDR6",
+      "NVIDIA® GeForce RTX™ 4060, 8 GB GDDR6"
+    ]
+  ]
+},
+     
     {
       "id": 2,
       "name": "Smartphone",
@@ -18,8 +44,33 @@
       "price": 499.99,
       "stock": 100,
       "image": "../images/iphone.png",
-      "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+      "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery.",
+      "childImages": [
+        "../public/images/mobile-1.jpg",
+        "../public/images/mobile-2.jpg",
+        "../public/images/mobile-3.jpg",
+        "../public/images/mobile-4.jpg"
+    ],
+      "number": 2,
+      "titles": ["Processor", "Memory", "About this item"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+      "details": [
+        [
+          "STUNNING TITANIUM DESIGN — iPhone 16 Pro has a strong and light titanium design with a larger 15.93 cm (6.3″) Super Retina XDR display. It’s remarkably durable with the latest-generation Ceramic Shield material that’s 2x tougher than any smartphone glass",
+          "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple"
+       ],
+        [
+          "8GB DDR4 RAM",
+          "Expandable up to 128GB",
+          "256GB SSD"
+        ],
+        [
+         " MAGNIFICENT SHOTS — Take your videos to a whole new level with 4K 120 fps Dolby Vision, enabled by the 48MP Fusion camera. The improved 48MP Ultra Wide camera lets you capture mesmerising detail in macro photos and wide-angle shots",
+          "PHOTOGRAPHIC STYLES — The latest-generation Photographic Styles give you greater creative flexibility, so you can make every photo even more you. And thanks to advances in the image pipeline, you can now reverse any style, any time"
+        ]
+      ]
     },
+
     {
       "id": 3,
       "name": "Wireless Headphones",
@@ -28,8 +79,35 @@
       "price": 149.99,
       "stock": 30,
       "image": "../images/headphone.png",
-      "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
-    },
+      "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.",
+      "childImages":[
+        "../public/images/head-1.jpg",
+        "../public/images/head-2.jpg",
+        "../public/images/head-3.jpg",
+        "../public/images/head-4.jpg"
+      ],
+      "number": 3,
+      "titles": ["About this item", "Connectivity Technology", "battery"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+       "details": [
+    [
+     " 40 mm Drivers with boAt Signature Sound: Level up your listening experience with the 40 mm high-performance drivers of the boAt Rockerz 430 Bluetooth Headphones. Bass-heavy boAt Signature Sound from the drivers brings your playlist tunes alive with exceptional clarity and depth",
+      "40 ms Low Latency BEAST Mode: Leave lag behind and enter the virtual dimension with BEAST mode. Synchronized visuals and sound thanks to the 40 ms low latency of these headphones lend seamless gaming for uninterrupted fun",
+      "40 hours of Playtime: Watch the latest series, movies, and more with your Rockerz in tow. Stay entertained without charging woes for up to 40 hours"
+    ],
+    [
+      "8GB DDR4 RAM",
+      "Expandable up to 32GB",
+      "256GB SSD"
+    ],
+    [
+     "Bluetooth v5.4 Compatibility: Amp wireless comfort with Bluetooth v5.4 connectivity. Unwind to your preferred audio content without tangled wires",
+     "Adaptive Fit: Breeze through your watchlist with Rockerz 430’s adaptive fit. Get heightened comfort with the snug headband even if you stream or play games for a long time",
+     "ENx Technology: Attend calls and meetings at home or outdoors without background noise playing spoilsport. Integrated with ENx technology, these headphones make conversations hassle-free no matter where you are"
+    ]
+  ]
+},
+
     {
       "id": 4,
       "name": "Watches",
@@ -38,9 +116,35 @@
       "price": 199.99,
       "stock": 20,
       "image": "../images/watch.png",
-      "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+      "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color.",
+      "childImages":[
+        "../public/images/watch-1.jpg",
+        "../public/images/watch-2.jpg",
+        "../public/images/watch-3.jpg",
+        "../public/images/watch-4.jpg"
+      ],
+      "number": 4,
+      "titles": ["Special Feature", "Wireless Communication Standard", "About this item"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+      "details": [
+        [
+          "【46.48mm (1.83 inch) HD Display Smart Watch】- The 46.48mm (46.48mm (1.83 inch)-) HD display makes the display clear and true-to-life, with vivid colours ensuring smooth readability and keeping the watch as exquisite to look at as when you first lay your eyes on it. The watch has a 280 NITS Peak Brightness",
+          " This fashion smart watch will work on a single charge for about 8 days (without Bluetooth calling) and about 5 Days with Bluetooth calling."
+        ],
+        [
+          "8GB DDR4 RAM",
+          "Expandable up to 32GB",
+          "256GB SSD"
+        ],
+        [
+          "NVIDIA® GeForce RTX™ 3050, 6 GB GDDR6",
+          "NVIDIA® GeForce RTX™ 4050, 6 GB GDDR6",
+          "NVIDIA® GeForce RTX™ 4060, 8 GB GDDR6"
+        ]
+      ]
     },
-    {
+
+    { 
       "id": 5,
       "name": "Speakers",
       "category": "Audio",
@@ -48,8 +152,33 @@
       "price": 149.99,
       "stock": 30,
       "image": "../images/speakers.png",
-      "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
-    },
+      "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color.",
+      "childImages":[
+        "../public/images/speaker-1.jpg",
+        "../public/images/speaker-2.jpg",
+        "../public/images/speaker-3.jpg",
+        "../public/images/speaker-4.jpg"
+      ],
+      "number": 5,
+      "titles": ["Speaker Maximum", "Connectivity Technology", "About this item"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+     "details": [
+    [
+      "Studio Grade Sound: The Mivi Play Bluetooth speaker delivers a deep and powerful sound with a solid bass to amplify your beats and make you fall in love with every note.",
+      "Play it non-stop: The Mivi Play wireless speaker packs a battery life of up to 12 long hours on a single charge to keep your party going on and on till the break of dawn.",
+      "Premium Brag Worthy Design: The Mivi Play portable wireless speaker comes with a sleek design, that makes it numero uno choice for those who love their music in private or with a couple friends!"
+    ],
+    [
+      "8GB DDR4 RAM",
+      "Expandable up to 32GB",
+      "256GB SSD"
+    ],
+    [
+     " Made in India : From design to manufacturing, Mivi Play is a portable wireless speaker proudly made in India. It is built locally to compete globally.",
+      "1 year warranty from the date of purchase, Easy responsive controls change music tracks and control volume"
+    ]
+  ]
+},
     {
       "id": 6,
       "name": "Television",
@@ -58,6 +187,31 @@
       "price": 35000.99,
       "stock": 20,
       "image": "../images/tv.png",
-      "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+      "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color.",
+      "childImages":[
+        "../public/images/tv-2.jpg",
+        "../public/images/tv-3.jpg",
+        "../public/images/tv-4.jpg",
+        "../public/images/tv-1.jpg"
+      ],
+      "number": 6,
+      "titles": ["Special Feature", "Included Components", "About this item"],
+      "About": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+      "details": [
+        [
+        "LED TV, 1 User Manual, 1 Warranty Card, 1 Remote Control, 2 AAA Batteries, Wall Mount / Table Top will be provided at the time of installation based on customer preferences.‎1 LED TV, 1 User Manual, 1 Warranty Card, 1 Remote Control, 2 AAA Batteries, Wall Mount / Table Top will be provided at the time of installation based on customer preferences."  
+        ],
+
+        [
+         " Screen Share | Music System | Content Guide | Connect Share Movie | Supported Apps : Netflix, Youtube, Prime Video, Hotstar, SonyLiv, Hungama, JioCinema, Zee5, Eros Now", 
+         " Oxygen PlayScreen Share | Music System | Content Guide | Connect Share Movie | Supported Apps : Netflix, Youtube, Prime Video, Hotstar, SonyLiv, Hungama, JioCinema, Zee5, Eros Now, Oxygen Play"
+        ],
+
+        [
+         " Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz",
+         " Connectivity: 2 HDMI ports to connect set top box, Blu Ray players, gaming console | 1 USB ports to connect hard drives and other USB devices",
+         "Sound : 20 Watts Output | Dolby Digital Plus"
+        ]
+      ]
     }
   ]

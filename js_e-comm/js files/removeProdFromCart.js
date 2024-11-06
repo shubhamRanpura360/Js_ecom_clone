@@ -20,4 +20,4 @@ export const removeProdFromCart = (id) => {
        }
     updateCartvalue(cartProducts); 
 };
-      
+       
